@@ -1,17 +1,25 @@
 # This project was generated with 0.3.19 using template: https://github.com/beeware/briefcase-template@v0.3.19
 [tool.briefcase]
-project_name = "Hello World"
+project_name = "31 Days"
 bundle = "com.example"
 version = "0.0.1"
-url = "https://example.com/helloworld"
+url = "https://example.com/thirtyone_days"
 license.file = "LICENSE"
 author = "Jane Developer"
 author_email = "jane@example.com"
 
 [tool.briefcase.app.helloworld]
-formal_name = "Hello World"
-description = "My first application"
-long_description = """More details about the app should go here.
+formal_name = "31 Days"
+description = "An application to track tasks that require 31 days of consistent check-ins"
+long_description = """
+31 Days is an application that helps you build habits by tracking tasks that require consistent check-ins.
+Features:
+- Create new tasks and track them on the main page
+- Check in daily for each task (once per day)
+- Complete tasks after 31 consecutive check-ins
+- Start new rounds for completed tasks, with each round requiring more days
+- View detailed check-in history for each task
+- Delete tasks you no longer want to track
 """
 sources = [
     "src/helloworld",
